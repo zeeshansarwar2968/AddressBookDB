@@ -14,3 +14,11 @@ CREATE TABLE AddressBook
     zip INT,
     phone_number VARCHAR(10) NOT NULL
 );
+
+--UC3 Insert values into the table
+
+INSERT INTO AddressBook
+VALUES
+( 
+    'James','Blue','1000 Harbor Ave.','Seattle','WA',98116,'8332443923'
+)
