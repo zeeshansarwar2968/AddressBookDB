@@ -29,3 +29,7 @@ UPDATE AddressBook
 SET address = '450 Stout Street'
 WHERE first_name = 'Meg' AND last_name = 'Stephenson';
 
+--UC5 Delete contact using name
+
+DELETE FROM AddressBook
+WHERE first_name = 'James' AND last_name = 'Blue';
