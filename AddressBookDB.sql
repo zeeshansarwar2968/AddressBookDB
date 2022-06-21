@@ -22,3 +22,10 @@ VALUES
 ( 
     'James','Blue','1000 Harbor Ave.','Seattle','WA',98116,'8332443923'
 )
+
+--UC4 Edit contact using name
+
+UPDATE AddressBook
+SET address = '450 Stout Street'
+WHERE first_name = 'Meg' AND last_name = 'Stephenson';
+
