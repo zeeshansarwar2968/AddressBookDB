@@ -47,3 +47,9 @@ WHERE state = 'NY';
 SELECT city,COUNT(city) as Total_Count
 FROM AddressBook 
 GROUP BY city;
+
+--UC8 Sort Contacts By Name in a City
+
+SELECT * FROM AddressBook 
+WHERE city = 'New York'
+ORDER BY first_name;
