@@ -33,3 +33,11 @@ WHERE first_name = 'Meg' AND last_name = 'Stephenson';
 
 DELETE FROM AddressBook
 WHERE first_name = 'James' AND last_name = 'Blue';
+
+--UC6 Retrieve contact information according to city or state
+
+SELECT * FROM AddressBook 
+WHERE city = 'Chicago';
+
+SELECT * FROM AddressBook 
+WHERE state = 'NY';
