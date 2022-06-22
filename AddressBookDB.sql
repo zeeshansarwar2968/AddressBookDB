@@ -75,3 +75,9 @@ WHERE first_name in ('Meg');
 UPDATE AddressBook
 SET Book_Name = 'MyBook';
 
+
+--UC10
+
+SELECT Contact_Type,COUNT(last_name) AS Total_Count
+FROM AddressBook
+GROUP BY Contact_Type;
