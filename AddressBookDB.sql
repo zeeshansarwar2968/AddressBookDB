@@ -41,3 +41,9 @@ WHERE city = 'Chicago';
 
 SELECT * FROM AddressBook 
 WHERE state = 'NY';
+
+--UC7 Count contacts by city
+
+SELECT city,COUNT(city) as Total_Count
+FROM AddressBook 
+GROUP BY city;
